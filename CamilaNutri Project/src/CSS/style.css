@@ -1,7 +1,8 @@
-/** global element styling **/
 
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
+
+@import
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,10 @@ body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
   background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(228,162,225,1) 35%, rgba(0,212,255,1) 100%);
+background: #ED4264; 
+background: -webkit-linear-gradient(to top, #FFEDBC, #ED4264); 
+background: linear-gradient(to top, #FFEDBC, #ED4264); 
+
 }
 
 #page-wrapper {
@@ -311,4 +315,8 @@ footer > span {
   justify-content: flex-end;
   font-size: 0.9em;
   color: #444;
+}
+
+#comofunciona,  #contato, #planos{
+  font-family: Lobster;
 }
