@@ -1,6 +1,7 @@
 /** global element styling **/
 
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 * {
   margin: 0;
@@ -173,11 +174,11 @@ nav > ul {
   }
 }
 
-#features {
+#sobre {
   margin-top: 30px;
 }
 
-#features .icon {
+#sobre .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,12 +188,12 @@ nav > ul {
 }
 
 @media (max-width: 550px) {
-  #features .icon {
+  #sobre .icon {
     display: none;
   }
 }
 
-#features .desc {
+#sobre .desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -202,7 +203,7 @@ nav > ul {
 }
 
 @media (max-width: 550px) {
-  #features .desc {
+  #sobre .desc {
     width: 100%;
     text-align: center;
     padding: 0;
@@ -211,7 +212,7 @@ nav > ul {
 }
 
 @media (max-width: 650px) {
-  #features {
+  #sobre {
     margin-top: 0;
   }
 }
