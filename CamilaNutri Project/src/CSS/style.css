@@ -10,13 +10,23 @@
   box-sizing: border-box;
 }
 
+
+/** FONTES PARA O BODY **/
+:root {
+  --font-primary: "Balsamiq";
+}
+
+
+
+
 body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
   background: rgb(2,0,36);
-background: #ED4264; 
-background: -webkit-linear-gradient(to top, #FFEDBC, #ED4264); 
-background: linear-gradient(to top, #FFEDBC, #ED4264); 
+  background: #ED4264; 
+  background: -webkit-linear-gradient(to top, #FFEDBC, #ED4264); 
+  background: linear-gradient(to top, #FFEDBC, #ED4264); 
+  
 
 }
 
@@ -177,11 +187,57 @@ nav > ul {
     margin-top: 120px;
   }
 }
+.sobre1 {
+  display: grid;
+  grid-template-columns: repeat(, 3fr) ;
+  grid-template-rows: repeat(4, 8rem);
+}
 
+.sobre:nth-child(1){
+  grid-column: 2 / 3;
+  grid-row: 1/2;
+  margin: 1rem;
+}
+
+.sobre:nth-child(2){
+  grid-column: 4 / 5;
+  grid-row: 1/2;
+  margin: 1rem;
+}
+.sobre:nth-child(3){
+  grid-column: 6 / 7;
+  grid-row: 1/2;
+  margin: 1rem;
+}
+.sobre:nth-child(4){
+  grid-column: 8 / 9;
+  grid-row: 1/2;
+  margin: 1rem;
+}
+.sessao-header {
+  text-align: center;
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  color: #ffffffff;
+  
+
+}
 #sobre {
   margin-top: 30px;
 }
 
+.sobre-header {
+  color: #ffffffff;
+  height: 2rem;
+  justify-content: center;
+}
+
+.sobre-text {
+  justify-content: center;
+  text-align: justify;
+  margin-top: 3rem;
+  height: 10rem;
+}
 #sobre .icon {
   display: flex;
   align-items: center;
@@ -220,6 +276,8 @@ nav > ul {
     margin-top: 0;
   }
 }
+
+
 
 #how-it-works {
   margin-top: 50px;
