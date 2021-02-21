@@ -320,8 +320,12 @@ nav > ul {
   text-align: center;
 }
 .depositions-title{
-    text-align: center;
-    font-family: var(--font-primary);
+  text-align: center;
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  color: #ffffff;
+  background-color: rgb(32, 31, 31);
+  padding: 4rem;
     
 }
 
