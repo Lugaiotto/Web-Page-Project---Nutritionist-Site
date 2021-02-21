@@ -209,7 +209,7 @@ nav > ul {
   font-family: var(--font-primary);
   font-size: 2rem;
   color: #ffffff;
-  background-color: rgb(255, 181, 181);
+  background-color: rgb(32, 31, 31);
   padding: 2rem;
 
 }
@@ -319,6 +319,18 @@ nav > ul {
   padding: 1rem;
   text-align: center;
 }
+.depositions-title{
+    text-align: center;
+    font-family: var(--font-primary);
+    
+}
+
+.depositions-grid{
+  display: grid;
+  grid-template-columns: repeat(6, 3fr) ;
+  grid-template-rows: repeat(2, 8rem);
+}
+
 
 @media (max-width: 550px) {
   #sobre .icon {
@@ -405,13 +417,15 @@ nav > ul {
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #f1c40f;
+  background-color: #ffffff;
   font-weight: 400;
 }
 
 .product > button:hover {
-  background-color: orange;
-  transition: background-color 1s;
+  background-color: #ED4264;
+  transition: background-color 1.5s;
+  color: rgb(255, 255, 255);
+  transition: color 1s;
 }
 
 @media (max-width: 800px) {
