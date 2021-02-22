@@ -32,6 +32,7 @@ body {
 
 #page-wrapper {
   position: relative;
+  
 }
 
 li {
@@ -87,6 +88,11 @@ header {
   align-items: center; 
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,131,181,1) 0%, rgba(0,212,255,1) 100%);
+  width:auto;
+  
+  
+  
+  
   
 }
 
@@ -210,7 +216,7 @@ nav > ul {
   font-size: 2rem;
   color: #ffffff;
   background-color: rgb(32, 31, 31);
-  padding: 2rem;
+  padding: 1px 1px 1px 2rem;
 
 }
 .sobre0 {
@@ -321,14 +327,16 @@ nav > ul {
   padding: 1rem;
   text-align: center;
 }
-.depositions-title{
+.plans-title{
   text-align: center;
   font-family: var(--font-primary);
-  font-size: 2rem;
+  font-size: 3rem;
   color: #ffffff;
   background-color: rgb(32, 31, 31);
-  padding: 4rem;
+  padding:  0px 4rem;
   border-radius:20px;
+  font-family: Lobster;
+  
     
 }
 
@@ -471,14 +479,24 @@ footer > span {
   color: #444;
 }
 
-#comofunciona,  #contato, #planos{
+#depoimentos-btn,  #contato, #planos{
   font-family: Lobster;
+  font-size: 1.5rem;
+  cursor:pointer;
+  border-bottom: 6px;
+  border-size: 10px;
+  border-radius: 5px;
+  
+  
 }
 
 
 .sessaoinfo-header{
   border-radius:20px;
   font-family: Lobster;
+  font-size: 2rem;
+  padding: 0px 3rem;
+  text-align:center;
   
 }
 
@@ -491,3 +509,6 @@ footer > span {
 #saiba_mais_btn{
   border-radius: 20px;
 }
+
+.gradient-border {
+  
