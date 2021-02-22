@@ -84,10 +84,10 @@ header {
   padding: 0px 20px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  background-color: #eee;
+  align-items: center; 
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,131,181,1) 0%, rgba(0,212,255,1) 100%);
+  
 }
 
 @media (max-width: 600px) {
@@ -244,6 +244,7 @@ nav > ul {
 
 #sobre {
   margin-top: 30px;
+  border-radius:20px;
 }
 
 .sobre-header {
@@ -272,6 +273,7 @@ nav > ul {
   padding: 1rem;
   text-align: center;
   margin-top: 1rem;
+  
 }
 
 .sobre1-text {
@@ -326,6 +328,7 @@ nav > ul {
   color: #ffffff;
   background-color: rgb(32, 31, 31);
   padding: 4rem;
+  border-radius:20px;
     
 }
 
@@ -446,8 +449,9 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
+  background-color: #FFEDBC;
   padding: 20px;
+  text-align: right;
 }
 
 footer > ul {
@@ -469,4 +473,21 @@ footer > span {
 
 #comofunciona,  #contato, #planos{
   font-family: Lobster;
+}
+
+
+.sessaoinfo-header{
+  border-radius:20px;
+  font-family: Lobster;
+  
+}
+
+#hero{
+  
+  font-family:Lobster;
+  color:#eeEEEE
+}
+
+#saiba_mais_btn{
+  border-radius: 20px;
 }
